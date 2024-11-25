@@ -5,12 +5,14 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <dirent.h>
+#include "kerncompat.h"
 #include <btrfs/ioctl.h>
 #include <btrfs/ctree.h>
 #include <stdarg.h>
 #include <stdlib.h>
 #include <sys/ioctl.h>
 #include <inttypes.h>
+#include <errno.h>
 #include <linux/limits.h>
 #include <getopt.h>
 #include <signal.h>
